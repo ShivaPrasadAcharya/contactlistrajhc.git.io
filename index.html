@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Contacts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      padding: 0;
+      margin: 0;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: blue;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: green;
+    }
+
+    #developedby {
+      font-style: italic;
+      color: brown;
+      text-align: right;
+    }
+
+    #search::placeholder {
+      color: #999;
+    }
+
+  .fixedtop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  #contacts {
+    margin-top: 60px;
+    overflow-y: auto;
+    height: calc(100vh - 60px);
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #search {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: yellow;
+  }
+</style> 
+</head>
+
+<body>
+   <div class="fixedtop">
+    <center><b><u> Human Resource of High Court, Rajbiraj</u></b> </center>
+    <p id="developedby"><u><b>Developed By:</b></u> A & B [Acharya & Budha]
+</p>
+    <input type="text" id="search" onkeyup="searchFunction()" placeholder="Search...नमो नमः">
+   </div><br><br><br><br><br>
+ <div id="contacts">
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Contact No.</th>
+      </tr>
+    </thead>
+    <tbody>
+      <table>
+        <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .btn {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Name (Post)</th>
+        <th>No.</th>
+    </tr>
+    <tr>
+        <td>Shri Bishwa Jung Sujapati (Registrar)</td>
+        <td><a href="tel:+9779842627595">9842627595<br><button class="btn" onclick="call('+9779842627595')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Phanindra Bhattarai (Vice-Registrar)</td>
+        <td><a href="tel:+9779852680799">9852680799<br><button class="btn" onclick="call('+9779852680799')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Balkrishna Pokharel (इ.अ.)</td>
+        <td><a href="tel:+9779842247232">9842247232<br><button class="btn" onclick="call('+9779842247232')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Shiv Budhathoki (इ.अ.)</td>
+        <td><a href="tel:+9779842034066">9842034066<br><button class="btn" onclick="call('+9779842034066')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Kumar Bahadur Shrestha (शा.अ.)</td>
+        <td><a href="tel:+9779842049919">9842049919<br><button class="btn" onclick="call('+9779842049919')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Navaraj Bhattarai (इ.अ.)</td>
+        <td><a href="tel:+9779842031875">9842031875<br><button class="btn" onclick="call('+9779842031875')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Govind Prasad Dhakal (इ.अ.)</td>
+        <td><a href="tel:+9779842026425">9842026425<br><button class="btn" onclick="call('+9779842026425')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Ekraj Karik (इ.अ.)</td>
+        <td><a href="tel:+9779842566429">9842566429<br><button class="btn" onclick="call('+9779842566429')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Indra Kumar Yonghang (इ.अ.)</td>
+        <td><a href="tel:+9779842636252">9842636252<br><button class="btn" onclick="call('+9779842636252')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Thamendra Prasad Roila (इ.अ.)</td>
+        <td><a href="tel:+9779842159119">9842159119<br><button class="btn" onclick="call('+9779842159119')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Rajendra Paudel (इ.अ.)</td>
+        <td><a href="tel:+9779857622445">9857622445<br><button class="btn" onclick="call('+9779857622445')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Omraj Subedi (इ.अ.)</td>
+        <td><a href="tel:+9779852034526">9852034526<br><button class="btn" onclick="call('+9779852034526')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Jibesh Jha (शा.अ.)</td>
+        <td><a href="tel:+9779869772177">9869772177<br><button class="btn" onclick="call('+9779869772177')">Call</button></a></td>
+    </tr>
+    <tr>
+        <td>Shri Gyan Bahadur Khatri (इ.अ.)</td>
+        <td><a href="tel:+9779841302584">9841302584<br><button class="btn" onclick="call('+9779841302584')">Call</button></a></td>
+    </tr>
+      <tr>
+        <td>Shri Laxmikant Jha* (शा.अ.)</td>
+        <td><a href="tel:+9779855021707">9855021707<br><button class="btn"
+              onclick="call('+9779855021707')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Manoj Kumar Khadka (शा.अ.)</td>
+        <td><a href="tel:+9779863872882">9863872882<br><button class="btn"
+              onclick="call('+9779863872882')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Narayan Payakurel (शा.अ.)</td>
+        <td><a href="tel:+9779842142442">9842142442<br><button class="btn"
+              onclick="call('+9779842142442')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Mahendra Prasad Yadav (शा.अ.)</td>
+        <td><a href="tel:+9779815732978">9815732978<br><button class="btn"
+              onclick="call('+9779815732978')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Narendra Kumar Regmi (शा.अ.)</td>
+        <td><a href="tel:+9779842822048">9842822048<br><button class="btn"
+              onclick="call('+9779842822048')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Hari Shankar Mahato* (शा.अ.)</td>
+        <td><a href="tel:+9779842974473">9842974473<br><button class="btn"
+              onclick="call('+9779842974473')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Maniraj Ghimire* (शा.अ.)</td>
+        <td><a href="tel:+9779866110682">9866110682<br><button class="btn"
+              onclick="call('+9779866110682')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Samana Kafle* (शा.अ.)</td>
+        <td><a href="tel:+9779840137028">9840137028<br><button class="btn"
+              onclick="call('+9779840137028')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Dilliraman Raman Tamang* (शा.अ.)</td>
+        <td><a href="tel:+9779849543744">9849543744<br><button class="btn"
+              onclick="call('+9779849543744')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Ram Khelaun Mehata* (शा.अ.)</td>
+        <td><a href="tel:+9779852029677">9852029677<br><button class="btn"
+              onclick="call('+9779852029677')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Saraswati Nemwang* (शा.अ.)</td>
+        <td><a href="tel:+9779804995782">9804995782<br><button class="btn"
+              onclick="call('+9779804995782')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Bikeshbabu Rai (शा.अ.)</td>
+        <td><a href="tel:+9779842863397">9842863397<br><button class="btn"
+              onclick="call('+9779842863397')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Bishnu Kumar Rai* (शा.अ.)</td>
+        <td><a href="tel:+9779842698714">9843698714<br><button class="btn"
+              onclick="call('+9779842698714')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Ram Bahadur Kisan* (शा.अ.)</td>
+        <td><a href="tel:+9779852029677">9852029677<br><button class="btn"
+              onclick="call('+9779852029677')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Nilkanth Basyal (शा.अ.)</td>
+        <td><a href="tel:+9779849108768">9849108768<br><button class="btn"
+              onclick="call('+9779849108768')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Sushil Paudel (शा.अ.)</td>
+        <td><a href="tel:+9779847428958">9847428958<br><button class="btn"
+              onclick="call('+9779847428958')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Dharma Bahadur Budha (शा.अ.)</td>
+        <td><a href="tel:+9779851215455">9851215455<br><button class="btn"
+              onclick="call('+9779851215455')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Prabin Rai (शा.अ.)</td>
+        <td><a href="tel:+9779851218100">9851218100<br><button class="btn"
+              onclick="call('+9779851218100')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Santosh Kumar Chowdhary (शा.अ.)</td>
+        <td><a href="tel:+9779862855605">9862855605<br><button class="btn"
+              onclick="call('+9779862855605')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Shiva Prasad Acharya* (शा.अ.)</td>
+        <td><a href="tel:+9779849667879">9849667879<br><button class="btn"
+              onclick="call('+9779849667879')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Yuvaraj Katuwal* (शा.अ.)</td>
+        <td><a href="tel:+9779842560425">9842560425<br><button class="btn"
+              onclick="call('+9779842560425')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Dhirendra Kumar Yadav (वैतनिक का.व्य.)</td>
+        <td><a href="tel:+9779807763860">9807763860<br><button class="btn"
+              onclick="call('+9779807763860')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Thakurdev Khadka (ना.सु)</td>
+        <td><a href="tel:+9779842822006">9842822006<br><button class="btn"
+              onclick="call('+9779842822006')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ram Lakhan Chowdhary (ना.सु)</td>
+        <td><a href="tel:+9779848654062">9848654062<br><button class="btn"
+              onclick="call('+9779848654062')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Pankaj Singh (ना.सु)</td>
+        <td><a href="tel:+9779842820921">9842820921<br><button class="btn"
+              onclick="call('+9779842820921')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Chandrakant Jha (क.अ.)</td>
+        <td><a href="tel:+9779842820878">9842820878<br><button class="btn"
+              onclick="call('+9779842820878')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Arun Kumar (ना.सु)</td>
+        <td><a href="tel:+9779845037873">9845037873<br><button class="btn"
+              onclick="call('+9779845037873')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Devendra Khatri (ना.सु)</td>
+        <td><a href="tel:+9779842107492">9842107492<br><button class="btn"
+              onclick="call('+9779842107492')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Deepak KC (ना.सु)</td>
+        <td><a href="tel:+9779842849213">9842849213<br><button class="btn"
+              onclick="call('+9779842849213')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ramesh Kumar Thaplia (ना.सु)</td>
+        <td><a href="tel:+9779842637737">9842637737<br><button class="btn"
+              onclick="call('+9779842637737')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Navraj Dahal (ना.सु)</td>
+        <td><a href="tel:+9779842832254">9842832254<br><button class="btn"
+              onclick="call('+9779842832254')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Kumarnath Ghimire (ना.सु)</td>
+        <td><a href="tel:+9779842109183">9842109183<br><button class="btn"
+              onclick="call('+9779842109183')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Navin Prasad Singh (सि.इले)</td>
+        <td><a href="tel:+9779842029018">9842029018<br><button class="btn"
+              onclick="call('+9779842029018')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Om Prakash Yadav (स.सु.अ)</td>
+        <td><a href="tel:+9779852832898">9852832898<br><button class="btn"
+              onclick="call('+9779852832898')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Gopal Karki (ना.सु)</td>
+        <td><a href="tel:+9779813732806">9813732806<br><button class="btn"
+              onclick="call('+9779813732806')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Shrijana Kumari Chowdhary (ना.सु)</td>
+        <td><a href="tel:+9779814754567">9814754567<br><button class="btn"
+              onclick="call('+9779814754567')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Rajendra Kumar Chowdhary (क.अ.)</td>
+        <td><a href="tel:+9779842057930">9842057930<br><button class="btn"
+              onclick="call('+9779842057930')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ram Narayan Kumar Mandal (ना.सु)</td>
+        <td><a href="tel:+9779819945917">9819945917<br><button class="btn"
+              onclick="call('+9779819945917')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Manoj Kumar Mandal (ना.सु)</td>
+        <td><a href="tel:+9779804764112">9804764112<br><button class="btn"
+              onclick="call('+9779804764112')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ambadatt Joshi (ना.सु)</td>
+        <td><a href="tel:+9779860112053">9860112053<br><button class="btn"
+              onclick="call('+9779860112053')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Prakaschandra Gautam (ना.सु)</td>
+        <td><a href="tel:+9779856046113">9856046113<br><button class="btn"
+              onclick="call('+9779856046113')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Manju Adhikari (ना.सु)</td>
+        <td><a href="tel:+9779827302837">9827302837<br><button class="btn"
+              onclick="call('+9779827302837')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Binod Bishta (ना.सु)</td>
+        <td><a href="tel:+9779861947848">9861947848<br><button class="btn"
+              onclick="call('+9779861947848')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ram Chandra Sah (तामेलदार)</td>
+        <td><a href="tel:+9779807789474">9807789474<br><button class="btn"
+              onclick="call('+9779807789474')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Birendra Chowdhary (डिठ्ठा)</td>
+        <td><a href="tel:+9779862185242">9862185242<br><button class="btn"
+              onclick="call('+9779862185242')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Vaidyanath Prasad Yadav (तामेलदार)</td>
+        <td><a href="tel:+9779814761550">9814761550<br><button class="btn"
+              onclick="call('+9779814761550')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Santosh Kumar Sharma (ना.सु)</td>
+        <td><a href="tel:+9779804793706">9804793706<br><button class="btn"
+              onclick="call('+9779804793706')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ram Pravesh Mahato (ना.सु)</td>
+        <td><a href="tel:+9779844291062">9844291062<br><button class="btn"
+              onclick="call('+9779844291062')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Khagendra Prasad Acharya (ना.सु)</td>
+        <td><a href="tel:+9779868150252">9868150252<br><button class="btn"
+              onclick="call('+9779868150252')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Hiramani Ghimire (ना.सु)</td>
+        <td><a href="tel:+9779869431963">9869431963<br><button class="btn"
+              onclick="call('+9779869431963')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Jeevan Kumar Pahim (ना.सु)</td>
+        <td><a href="tel:+9779849450738">9849450738<br><button class="btn"
+              onclick="call('+9779849450738')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Khim Bahadur Rana (ना.सु)</td>
+        <td><a href="tel:+9779868144021">9868144021<br><button class="btn"
+              onclick="call('+9779868144021')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Rajesh Kumar Shah (ना.सु)</td>
+        <td><a href="tel:+9779860012269">9860012269<br><button class="btn"
+              onclick="call('+9779860012269')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Pralad Karki (ना.सु)</td>
+        <td><a href="tel:+9779815763502">9815763502<br><button class="btn"
+              onclick="call('+9779815763502')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Prem Sinha Das (ना.सु)</td>
+        <td><a href="tel:+9779841668750">9841668750<br><button class="btn"
+              onclick="call('+9779841668750')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Birendra Kumar Prasad (ना.सु)</td>
+        <td><a href="tel:+9779844205812">9844205812<br><button class="btn"
+              onclick="call('+9779844205812')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Hari Chandra Sat (ना.सु)</td>
+        <td><a href="tel:+9779845666371">9845666371<br><button class="btn"
+              onclick="call('+9779845666371')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Dinesh Kumar Ram (क.अ.)</td>
+        <td><a href="tel:+9779825754193">9825754193<br><button class="btn"
+              onclick="call('+9779825754193')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ravi Kumar Karan (क.अ.)</td>
+        <td><a href="tel:+9779807661212">9807661212<br><button class="btn"
+              onclick="call('+9779807661212')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Mukesh Kumar Yadav (क.अ.) (का.स.)</td>
+        <td><a href="tel:+9779842030297">9842030297<br><button class="btn"
+              onclick="call('+9779842030297')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Kari Yadav  (का.स.)</td>
+        <td><a href="tel:+9779804736753">9804736753<br><button class="btn"
+              onclick="call('+9779804736753')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Pancham Kumar Singh  (का.स.)</td>
+        <td><a href="tel:+9779814711794">9814711794<br><button class="btn"
+              onclick="call('+9779814711794')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ramashish Mandal  (का.स.)</td>
+        <td><a href="tel:+9779816703461">9816703461<br><button class="btn"
+              onclick="call('+9779816703461')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Umesh Prasad Yadav  (का.स.)</td>
+        <td><a href="tel:+9779807715914">9807715914<br><button class="btn"
+              onclick="call('+9779807715914')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Shankar Kumar Magar  (का.स.)</td>
+        <td><a href="tel:+9779819761086">9819761086<br><button class="btn"
+              onclick="call('+9779819761086')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Mohan Yadav  (का.स.)</td>
+        <td><a href="tel:+9779814775405">9814775405<br><button class="btn"
+              onclick="call('+9779814775405')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Shobhamaya Ale Magar  (का.स.)</td>
+        <td><a href="tel:+9779827743981">9827743981<br><button class="btn"
+              onclick="call('+9779827743981')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ranjita Kumari Raut  (का.स.)</td>
+        <td><a href="tel:+9779804712788">9804712788<br><button class="btn"
+              onclick="call('+9779804712788')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Govind Prasad Yadav  (का.स.)</td>
+        <td><a href="tel:+9779804708624">9804708624<br><button class="btn"
+              onclick="call('+9779804708624')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Sushil Yadav  (का.स.)</td>
+        <td><a href="tel:+9779815727259">9815727259<br><button class="btn"
+              onclick="call('+9779815727259')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ramchandra Yadav  (का.स.)</td>
+        <td><a href="tel:+9779815749588">9815749588<br><button class="btn"
+              onclick="call('+9779815749588')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Tech Bahadur Khadka  (का.स.)</td>
+        <td><a href="tel:+9779848276036">9848276036<br><button class="btn"
+              onclick="call('+9779848276036')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ramnath Yadav  (का.स.)</td>
+        <td><a href="tel:+9779819953989">9819953989<br><button class="btn"
+              onclick="call('+9779819953989')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Sagar Raut  (का.स.)</td>
+        <td><a href="tel:+9779825794590">9825794590<br><button class="btn"
+              onclick="call('+9779825794590')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Pashupati Yadav  (का.स.)</td>
+        <td><a href="tel:+9779813460392">9813460392<br><button class="btn"
+              onclick="call('+9779813460392')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Yogendra Yadav  (का.स.)</td>
+        <td><a href="tel:+9779815798333">9815798333<br><button class="btn"
+              onclick="call('+9779815798333')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Putu Kumar Singh  (का.स.)</td>
+        <td><a href="tel:+9779811785327">9811785327<br><button class="btn"
+              onclick="call('+9779811785327')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Neera Laav  (का.स.)</td>
+        <td><a href="tel:+9779842852555">9842852555<br><button class="btn"
+              onclick="call('+9779842852555')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Shova Kumari Sah  (का.स.)</td>
+        <td><a href="tel:+9779804741113">9804741113<br><button class="btn"
+              onclick="call('+9779804741113')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Junaid Hussain  (का.स.)</td>
+        <td><a href="tel:+9779804702160">9804702160<br><button class="btn"
+              onclick="call('+9779804702160')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Shyam Kumar Mandal  (का.स.)</td>
+        <td><a href="tel:+9779815737438">9815737438<br><button class="btn"
+              onclick="call('+9779815737438')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Lalita Yadav  (का.स.)</td>
+        <td><a href="tel:+9779804736180">9804736180<br><button class="btn"
+              onclick="call('+9779804736180')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td> Shri Ramsevak Sah  (का.स.)</td>
+        <td><a href="tel:+9779815717086">9815717086<br><button class="btn"
+              onclick="call('+9779815717086')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Hon. Shanti Singh Thapa</td>
+        <td><a href="tel:+977946047784">946047784<br><button class="btn"
+              onclick="call('+977946047784')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Hon. Ishwar Raj Acharya</td>
+        <td><a href="tel:+9779849392902">9849392902<br><button class="btn"
+              onclick="call('+9779849392902')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Hon. Kul Prasad Sharma</td>
+        <td><a href="tel:+9779855011278">9855011278<br><button class="btn"
+              onclick="call('+9779855011278')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Hon. Mina Gautam Sedai</td>
+        <td><a href="tel:+9779842068185">9842068185<br><button class="btn"
+              onclick="call('+9779842068185')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Hon. Natibabu Lamichhane</td>
+        <td><a href="tel:+9779851199666">9851199666<br><button class="btn"
+              onclick="call('+9779851199666')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Hon. Jagat Bahadhur Thapa</td>
+        <td><a href="tel:+9779852029650">9852029650<br><button class="btn"
+              onclick="call('+9779852029650')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Hon. Munendra Prasad Awasthi</td>
+        <td><a href="tel:+9779851076731">9851076731<br><button class="btn"
+              onclick="call('+9779851076731')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Hon. Tej Narayan Sing Rai</td>
+        <td><a href="tel:+9779842046942">9842046942<br><button class="btn"
+              onclick="call('+9779842046942')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Hon. Hari Prasad Bhandari</td>
+        <td><a href="tel:+9779851068441">9851068441<br><button class="btn"
+              onclick="call('+9779851068441')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Hon. Madan Pokharel</td>
+        <td><a href="tel:+9779857820116">9857820116<br><button class="btn"
+              onclick="call('+9779857820116')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Ram Prasad Bhattarai* (Ex:Registar)</td>
+        <td><a href="tel:+9779858487227">9858487227<br><button class="btn"
+              onclick="call('+9779858487227')">Call</button></a></td>
+      </tr>
+      <tr>
+        <td>Shri Ujwal Neupane* (Ex:Vice-Registar)</td>
+        <td><a href="tel:+9779842045886">9842045886<br><button class="btn"
+              onclick="call('+9779842045886')">Call</button></a></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <script>
+    function searchFunction() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("search");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("contacts");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            td = tr[i].getElementsByTagName("td")[1];
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              tr[i].style.display = "";
+            } else {
+              tr[i].style.display = "none";
+            }
+          }
+        }
+      }
+    }
+//to make content not to pass over fixed top on scrolling//
+
+      window.addEventListener("scroll", function() {
+        var fixedTop = document.querySelector(".fixedtop");
+        var contacts = document.querySelector("#contacts");
+        if (window.pageYOffset >= fixedTop.offsetHeight) {
+          contacts.style.marginTop = fixedTop.offsetHeight + "px";
+        } else {
+          contacts.style.marginTop = "20px";
+        }
+      });
+
+      window.addEventListener("scroll", function() {
+      var fixedTop = document.querySelector(".fixedtop");
+      var contacts = document.querySelector("#contacts");
+      if (window.pageYOffset >= fixedTop.offsetHeight) {
+        contacts.style.marginTop = fixedTop.offsetHeight + "px";
+      } else {
+        contacts.style.marginTop = "60px";
+      }
+    });
+    
+</script>
+</body>
+<footer>
+  <center><b>-भवतु सब्ब मङ्गलम्-</b> </center>
+  <p id="developedby"><u><b>Developed By:</b></u><br> Shiva Prasad Acharya
+    <br> Dharma Bahadur Budha<br> २०७९, चैत्र (रामनवमी) <br>स्रोतः प्रशासन शाखा, उ.अ. जनकपुर, राजविराज इजलास।
+  </p>
+</footer>
+</html>
+<!--high court rajbiral, office personnel contact list: functionable and important -->
+<!-- not pushed to git hub -->
